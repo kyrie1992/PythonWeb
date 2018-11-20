@@ -23,12 +23,15 @@ class Chinese(Person):
 
     def walk(self):
         print('is walking...')
+    def speak(self):
+        print(__author__)
 
 
 if __name__ == '__main__':
 
     c1 = Chinese('bigberg',22,'Chinese')
     c1.talk()
+    c1.speak()
 
 
 
